@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Makanan"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#423C3C"
+            android:fontFamily="sans-serif"/>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/imageView1_makanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/makanan1" />
+
+                <TextView
+                    android:id="@+id/textView1_makanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#B03D3B3B"
+                    android:gravity="center"
+                    android:text="AYAM CRISPY PENYET"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp"
+                    android:layout_marginTop="160dp" />
+            </FrameLayout>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView2_makanan"
+                    android:layout_width="205dp"
+                    android:layout_height="205dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/makanan2" />
+                <TextView
+                    android:id="@+id/textView2_makanan"
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:background="#B03D3B3B"
+                    android:gravity="center"
+                    android:text="TEMPE PENYET"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp"
+                    android:layout_marginTop="165dp"/>
+                <ImageView
+                    android:id="@+id/imageView3_makanan"
+                    android:layout_width="205dp"
+                    android:layout_height="205dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/makanan3"/>
+                <TextView
+                    android:id="@+id/textView3_makanan"
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:background="#B03D3B3B"
+                    android:gravity="center"
+                    android:text="AYAM PENYET"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp"
+                    android:layout_marginTop="165dp"/>
+            </GridLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/imageView4_makanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/makanan4" />
+
+                <TextView
+                    android:id="@+id/textView4_makanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#B03D3B3B"
+                    android:gravity="center"
+                    android:text="AYAM GORENG SAMBAL HIJAU"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp"
+                    android:layout_marginTop="160dp"/>
+            </FrameLayout>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView5_makanan"
+                    android:layout_width="205dp"
+                    android:layout_height="205dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/makanan5" />
+                <TextView
+                    android:id="@+id/textView5_makanan"
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:background="#B03D3B3B"
+                    android:gravity="center"
+                    android:text="TERI TAHU PENYET"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp"
+                    android:layout_marginTop="165dp"/>
+                <ImageView
+                    android:id="@+id/imageView6_makanan"
+                    android:layout_width="205dp"
+                    android:layout_height="205dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/makanan6"/>
+                <TextView
+                    android:id="@+id/textView6_makanan"
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:background="#B03D3B3B"
+                    android:gravity="center"
+                    android:text="BELUT PENYET"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp"
+                    android:layout_marginTop="165dp"/>
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
