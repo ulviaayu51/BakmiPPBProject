@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Permainan"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:background="@drawable/lala"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/piala"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:srcCompat="@drawable/piala"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gbgmember"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/ketgame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ketmain"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/gabsek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gabung"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@color/orange"/>
+
+</LinearLayout>
