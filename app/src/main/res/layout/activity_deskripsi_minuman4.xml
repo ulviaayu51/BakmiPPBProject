@@ -18,31 +18,34 @@
             android:gravity="center"
             android:textSize="20dp"
             android:textColor="#423C3C"
-            android:fontFamily="sans-serif"/>
+            android:fontFamily="sans"/>
     </androidx.appcompat.widget.Toolbar>
+
     <ImageView
-        android:id="@+id/imageView_minuman4"
+        android:id="@+id/imageView_desminuman4"
         android:layout_width="match_parent"
-        android:layout_height="380dp"
+        android:layout_height="270dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/minuman4" />
+        app:srcCompat="@drawable/desminuman4" />
 
     <TextView
-        android:id="@+id/textView1_minuman4"
+        android:id="@+id/textView1_desminuman4"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="30dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="30dp"
-        android:text="ES CINCAU COKLAT"
+        android:text="SWEET ICED TEA"
+        android:fontFamily="sans"
         android:textColor="@color/colorAccent"
         android:textSize="20dp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView2_minuman4"
+        android:id="@+id/textView2_desminuman4"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:paddingLeft="30dp"
-        android:text="Es cincau dengan susu coklat cair"
-        android:textSize="15dp" />
+        android:text="Es Teh dengan Gula"
+        android:textSize="15dp"
+        android:fontFamily="sans"/>
 </LinearLayout>
