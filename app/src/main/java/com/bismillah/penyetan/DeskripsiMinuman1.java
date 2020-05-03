@@ -20,14 +20,14 @@ public class DeskripsiMinuman1 extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
         if(toolbarText!=null && toolbar!=null){
-            toolbarText.setText("ES TEH MANIS");
+            toolbarText.setText("ICED GREEN TEA");
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
 
-        imageView = findViewById(R.id.imageView_minuman1);
-        textView1 = findViewById(R.id.textView1_minuman1);
-        textView2 = findViewById(R.id.textView2_minuman1);
+        imageView = findViewById(R.id.imageView_desminuman1);
+        textView1 = findViewById(R.id.textView1_desminuman1);
+        textView2 = findViewById(R.id.textView2_desminuman1);
     }
 }
