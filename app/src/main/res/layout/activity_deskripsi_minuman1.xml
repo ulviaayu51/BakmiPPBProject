@@ -18,32 +18,34 @@
             android:gravity="center"
             android:textSize="20dp"
             android:textColor="#423C3C"
-            android:fontFamily="sans-serif"/>
+            android:fontFamily="sans"/>
     </androidx.appcompat.widget.Toolbar>
 
     <ImageView
-        android:id="@+id/imageView_minuman1"
+        android:id="@+id/imageView_desminuman1"
         android:layout_width="match_parent"
-        android:layout_height="450dp"
+        android:layout_height="270dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/minuman1" />
+        app:srcCompat="@drawable/desminuman1" />
 
     <TextView
-        android:id="@+id/textView1_minuman1"
+        android:id="@+id/textView1_desminuman1"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="30dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="30dp"
-        android:text="ES TEH MANIS"
+        android:text="ICED GREEN TEA"
+        android:fontFamily="sans"
         android:textColor="@color/colorAccent"
         android:textSize="20dp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView2_minuman1"
+        android:id="@+id/textView2_desminuman1"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:paddingLeft="30dp"
-        android:text="Es teh manis "
-        android:textSize="15dp" />
+        android:text="Es Teh Hijau"
+        android:textSize="15dp"
+        android:fontFamily="sans"/>
 </LinearLayout>
