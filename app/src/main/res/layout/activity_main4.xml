@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Main4Activity">
 
-    <LinearLayout
+   <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -22,80 +22,125 @@
                 android:gravity="center"
                 android:textSize="20dp"
                 android:textColor="#423C3C"
-                android:fontFamily="sans-serif"/>
+                android:fontFamily="sans"/>
         </androidx.appcompat.widget.Toolbar>
-
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_above="@+id/bottom_navigation"
-            tools:ignore="UnknownId">
-
-            <FrameLayout
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_width="match_parent">
-                <LinearLayout
+                android:orientation="vertical">
+                <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
+                    android:layout_height="match_parent">
                     <ImageView
                         android:id="@+id/imageView1_menu"
                         android:layout_width="match_parent"
-                        android:layout_height="350dp"
-                        android:scaleType="fitXY"
-                        app:srcCompat="@drawable/makanan1"/>
-
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/bakmi"/>
+                    <TextView
+                        android:id="@+id/textView1_menu"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="#B03D3B3B"
+                        android:gravity="center"
+                        android:text="Bakmi"
+                        android:fontFamily="sans"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14dp"
+                        android:layout_marginTop="205dp"/>
+                </FrameLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
                     <ImageView
                         android:id="@+id/imageView2_menu"
-                        android:layout_width="match_parent"
-                        android:layout_height="350dp"
-                        android:scaleType="fitXY"
-                        app:srcCompat="@drawable/minuman4"
-                        android:clickable="true"
-                        android:focusable="true"/>
-
+                        android:layout_width="205dp"
+                        android:layout_height="220dp"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:scaleType="fitStart"
+                        app:srcCompat="@drawable/nasi4"/>
+                    <TextView
+                        android:id="@+id/textView2_menu"
+                        android:layout_width="205dp"
+                        android:layout_height="40dp"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:text="Nasi"
+                        android:fontFamily="sans"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/colorPrimary"
+                        android:background="#B03D3B3B"
+                        android:layout_marginTop="180dp"/>
                     <ImageView
                         android:id="@+id/imageView3_menu"
-                        android:layout_width="match_parent"
-                        android:layout_height="350dp"
+                        android:layout_width="205dp"
+                        android:layout_height="220dp"
+                        android:layout_row="0"
+                        android:layout_column="1"
                         android:scaleType="fitXY"
-                        app:srcCompat="@drawable/camilan1"
-                        android:clickable="true"
-                        android:focusable="true"/>
-                </LinearLayout>
-
-                <TextView
-                    android:id="@+id/textView1_menu"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:background="#773D3B3B"
-                    android:gravity="center"
-                    android:text="Makanan"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="18dp"
-                    android:layout_marginTop="310dp"/>
-                <TextView
-                    android:id="@+id/textView2_menu"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Minuman"
-                    android:gravity="center"
-                    android:textSize="18dp"
-                    android:textColor="@color/colorPrimary"
-                    android:background="#B03D3B3B"
-                    android:layout_marginTop="661dp"/>
-                <TextView
-                    android:id="@+id/textView3_menu"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="Camilan"
-                    android:gravity="center"
-                    android:textSize="18dp"
-                    android:textColor="@color/colorPrimary"
-                    android:background="#B03D3B3B"
-                    android:layout_marginTop="1010dp"/>
-            </FrameLayout>
+                        app:srcCompat="@drawable/makanan_pendamping4"/>
+                    <TextView
+                        android:id="@+id/textView3_menu"
+                        android:layout_width="203dp"
+                        android:layout_height="40dp"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:text="Makanan Pendamping"
+                        android:gravity="center"
+                        android:fontFamily="sans"
+                        android:textSize="14dp"
+                        android:textColor="@color/colorPrimary"
+                        android:background="#B03D3B3B"
+                        android:layout_marginTop="180dp"/>
+                    <ImageView
+                        android:id="@+id/imageView4_menu"
+                        android:layout_width="205dp"
+                        android:layout_height="220dp"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/minuman"/>
+                    <TextView
+                        android:id="@+id/textView4_menu"
+                        android:layout_width="205dp"
+                        android:layout_height="40dp"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:text="Makanan Pendamping"
+                        android:gravity="center"
+                        android:fontFamily="sans"
+                        android:textSize="14dp"
+                        android:textColor="@color/colorPrimary"
+                        android:background="#B03D3B3B"
+                        android:layout_marginTop="180dp"/>
+                    <ImageView
+                        android:id="@+id/imageView5_menu"
+                        android:layout_width="205dp"
+                        android:layout_height="220dp"
+                        android:layout_row="1"
+                        android:layout_column="1"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/camilan2"/>
+                    <TextView
+                        android:id="@+id/textView5_menu"
+                        android:layout_width="205dp"
+                        android:layout_height="40dp"
+                        android:layout_row="1"
+                        android:layout_column="1"
+                        android:text="Makanan Penutup dan Camilan"
+                        android:gravity="center"
+                        android:fontFamily="sans"
+                        android:textSize="14dp"
+                        android:textColor="@color/colorPrimary"
+                        android:background="#B03D3B3B"
+                        android:layout_marginTop="180dp"/>
+                </GridLayout>
+            </LinearLayout>
         </ScrollView>
     </LinearLayout>
     <com.google.android.material.bottomnavigation.BottomNavigationView
