@@ -172,7 +172,7 @@
                     android:layout_column="0"
                     android:background="#B03D3B3B"
                     android:gravity="center"
-                    android:text="COCONUT COFFE"
+                    android:text="COCONUT COFFEE"
                     android:textColor="@color/colorPrimary"
                     android:textSize="15dp"
                     android:fontFamily="sans"
