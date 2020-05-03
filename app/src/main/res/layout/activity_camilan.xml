@@ -18,7 +18,7 @@
             android:gravity="center"
             android:textSize="20dp"
             android:textColor="#423C3C"
-            android:fontFamily="sans-serif"/>
+            android:fontFamily="sans"/>
     </androidx.appcompat.widget.Toolbar>
     <GridLayout
         android:layout_width="match_parent"
@@ -39,9 +39,10 @@
             android:layout_column="0"
             android:background="#B03D3B3B"
             android:gravity="center"
-            android:text="KERUPUK"
+            android:text="KRISPI CHIPS SALTED EGG"
+            android:fontFamily="sans"
             android:textColor="@color/colorPrimary"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:layout_marginTop="165dp"/>
         <ImageView
             android:id="@+id/imageView2_camilan"
@@ -59,49 +60,10 @@
             android:layout_column="1"
             android:background="#B03D3B3B"
             android:gravity="center"
-            android:text="KERIPIK SINGKONG"
+            android:text="FRUITILALA"
+            android:fontFamily="sans"
             android:textColor="@color/colorPrimary"
-            android:textSize="18dp"
-            android:layout_marginTop="165dp"/>
-        <ImageView
-            android:id="@+id/imageView3_camilan"
-            android:layout_width="205dp"
-            android:layout_height="205dp"
-            android:layout_row="1"
-            android:layout_column="0"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/camilan3" />
-        <TextView
-            android:id="@+id/textView3_camilan"
-            android:layout_width="205dp"
-            android:layout_height="40dp"
-            android:layout_row="1"
-            android:layout_column="0"
-            android:background="#B03D3B3B"
-            android:gravity="center"
-            android:text="KERIPIK TEMPE"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18dp"
-            android:layout_marginTop="165dp"/>
-        <ImageView
-            android:id="@+id/imageView4_camilan"
-            android:layout_width="205dp"
-            android:layout_height="205dp"
-            android:layout_row="1"
-            android:layout_column="1"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/camilan4"/>
-        <TextView
-            android:id="@+id/textView4_camilan"
-            android:layout_width="205dp"
-            android:layout_height="40dp"
-            android:layout_row="1"
-            android:layout_column="1"
-            android:background="#B03D3B3B"
-            android:gravity="center"
-            android:text="KERIPIK TAHU"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:layout_marginTop="165dp"/>
     </GridLayout>
 </LinearLayout>
