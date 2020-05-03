@@ -20,13 +20,13 @@ public class DeskripsiCamilan2 extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
         if(toolbarText!=null && toolbar!=null){
-            toolbarText.setText("KERIPIK SINGKONG");
+            toolbarText.setText("FRUITILALA");
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        imageView = findViewById(R.id.imageView_camilan2);
-        textView1 = findViewById(R.id.textView1_camilan2);
-        textView2 = findViewById(R.id.textView2_camilan2);
+        imageView = findViewById(R.id.imageView_descamilan2);
+        textView1 = findViewById(R.id.textView1_descamilan2);
+        textView2 = findViewById(R.id.textView2_descamilan2);
     }
 }
