@@ -18,29 +18,31 @@
             android:gravity="center"
             android:textSize="20dp"
             android:textColor="#423C3C"
-            android:fontFamily="sans-serif"/>
+            android:fontFamily="sans"/>
     </androidx.appcompat.widget.Toolbar>
     <ImageView
-        android:id="@+id/imageView_camilan1"
+        android:id="@+id/imageView_descamilan1"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="270dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/camilan1" />
+        app:srcCompat="@drawable/descamilan1" />
     <TextView
-        android:id="@+id/textView1_camilan1"
+        android:id="@+id/textView1_descamilan1"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="30dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="30dp"
-        android:text="KERUPUK"
+        android:text="KRISPI CHIPS SALTED EGG"
         android:textSize="20dp"
+        android:fontFamily="sans"
         android:textStyle="bold"
         android:textColor="@color/colorAccent"/>
     <TextView
-        android:id="@+id/textView2_camilan1"
+        android:id="@+id/textView2_descamilan1"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:paddingLeft="30dp"
-        android:text="Kerupuk renyah"
-        android:textSize="15dp"/>
+        android:text="Kulit pangsit Goreng dengan bumbu Telur Asin"
+        android:textSize="15dp"
+        android:fontFamily="sans"/>
 </LinearLayout>
