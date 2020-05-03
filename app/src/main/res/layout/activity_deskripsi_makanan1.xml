@@ -18,32 +18,33 @@
             android:gravity="center"
             android:textSize="20dp"
             android:textColor="#423C3C"
-            android:fontFamily="sans-serif"/>
+            android:fontFamily="sans"/>
     </androidx.appcompat.widget.Toolbar>
     <ImageView
-        android:id="@+id/imageView_makanan1"
+        android:id="@+id/imageView_desmakanan1"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="270dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/makanan1" />
+        app:srcCompat="@drawable/desbakmi1" />
 
     <TextView
-        android:id="@+id/textView1_makanan1"
+        android:id="@+id/textView1_desmakanan1"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="30dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="30dp"
-        android:text="AYAM CRISPY PENYET"
+        android:text="BAKMI GORENG"
+        android:fontFamily="sans"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/colorAccent" />
 
     <TextView
-        android:id="@+id/textView2_makanan1"
+        android:id="@+id/textView2_desmakanan1"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:paddingLeft="30dp"
-        android:text="Ayam crispy penyet dengan sambal merah"
+        android:text="Bakmi Goreng"
+        android:fontFamily="sans"
         android:textSize="15dp"/>
-
 </LinearLayout>
