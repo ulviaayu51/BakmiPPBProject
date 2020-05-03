@@ -18,38 +18,65 @@
             android:gravity="center"
             android:textSize="20dp"
             android:textColor="#423C3C"
-            android:fontFamily="sans-serif"/>
+            android:fontFamily="sans"/>
     </androidx.appcompat.widget.Toolbar>
     <ImageView
         android:id="@+id/imageView_beranda5"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:scaleType="fitXY"
-        android:src="@drawable/beranda5"/>
+        android:src="@drawable/desberanda5"/>
     <TextView
         android:id="@+id/textView1_beranda5"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="DELIVERY"
-        android:textSize="20dp"
-        android:layout_marginLeft="30dp"/>
+        android:fontFamily="sans"
+        android:textColor="@color/black"
+        android:text="Special Offers"
+        android:textSize="17dp"
+        android:layout_marginLeft="25dp"/>
     <TextView
         android:id="@+id/textView2_beranda5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:text="Delivery hanya diperutukan untuk member Penyetan Warga +62 saja"
-        android:textSize="15dp"/>
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:text="Dapatkan Penawaran dan Keuntungan menarik dengan menjadi Member GMania"
+        android:textSize="15dp"
+        android:fontFamily="sans"/>
     <TextView
         android:id="@+id/textView3_beranda5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="30dp"
-        android:text="Yuk segera menjadi member kami dengan cara gabung dan registrasi sekarang juga"
-        android:textSize="15dp"/>
+        android:layout_marginTop="60dp"
+        android:text="Bergabung menjadi Member"
+        android:textSize="23dp"
+        android:fontFamily="sans"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/textView4_beranda5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Nikmati penawaran menarik, dan banyak lagi dengan program hadiah ekslusif Bakmi GMania. Daftar sekarang !"
+        android:textSize="15dp"
+        android:fontFamily="sans"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/button_beranda5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="GABUNG SEKARANG"
+        android:textSize="20dp"
+        android:fontFamily="sans"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape_orange"/>
 </LinearLayout>
