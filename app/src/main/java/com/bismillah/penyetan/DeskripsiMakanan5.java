@@ -20,13 +20,13 @@ public class DeskripsiMakanan5 extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
         if(toolbarText!=null && toolbar!=null){
-            toolbarText.setText("TERI TAHU PENYET");
+            toolbarText.setText("KOREAN POPCORN CHICKEN");
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        imageView = findViewById(R.id.imageView_makanan5);
-        textView1 = findViewById(R.id.textView1_makanan5);
-        textView2 = findViewById(R.id.textView2_makanan5);
+        imageView = findViewById(R.id.imageView_desmakanan5);
+        textView1 = findViewById(R.id.textView1_desmakanan5);
+        textView2 = findViewById(R.id.textView2_desmakanan5);
     }
 }
