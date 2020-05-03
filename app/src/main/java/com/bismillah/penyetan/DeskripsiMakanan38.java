@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class DeskripsiMakanan6 extends AppCompatActivity {
+public class DeskripsiMakanan38 extends AppCompatActivity {
     ImageView imageView;
     TextView textView1;
     TextView textView2;
@@ -15,18 +15,18 @@ public class DeskripsiMakanan6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_deskripsi_makanan6);
+        setContentView(R.layout.activity_deskripsi_makanan38);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
         if(toolbarText!=null && toolbar!=null){
-            toolbarText.setText("TAHU BAKSO");
+            toolbarText.setText("TAOGE SAUS TIRAM");
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        imageView = findViewById(R.id.imageView_desmakanan6);
-        textView1 = findViewById(R.id.textView1_desmakanan6);
-        textView2 = findViewById(R.id.textView2_desmakanan6);
+        imageView = findViewById(R.id.imageView_desmakanan38);
+        textView1 = findViewById(R.id.textView1_desmakanan38);
+        textView2 = findViewById(R.id.textView2_desmakanan38);
     }
 }
