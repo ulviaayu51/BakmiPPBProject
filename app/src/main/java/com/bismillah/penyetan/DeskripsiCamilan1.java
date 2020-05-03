@@ -20,13 +20,13 @@ public class DeskripsiCamilan1 extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
         if(toolbarText!=null && toolbar!=null){
-            toolbarText.setText("KERUPUK");
+            toolbarText.setText("KRISPI CHIPS SALTED EGG");
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        imageView = findViewById(R.id.imageView_camilan1);
-        textView1 = findViewById(R.id.textView1_camilan1);
-        textView2 = findViewById(R.id.textView2_camilan1);
+        imageView = findViewById(R.id.imageView_descamilan1);
+        textView1 = findViewById(R.id.textView1_descamilan1);
+        textView2 = findViewById(R.id.textView2_descamilan1);
     }
 }
