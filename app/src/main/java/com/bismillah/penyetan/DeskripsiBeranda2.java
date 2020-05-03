@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -13,6 +14,7 @@ public class DeskripsiBeranda2 extends AppCompatActivity {
     TextView textView2;
     TextView textView3;
     TextView textView4;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +24,7 @@ public class DeskripsiBeranda2 extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
         if(toolbarText!=null && toolbar!=null){
-            toolbarText.setText("SURPRISE PROMO");
+            toolbarText.setText("Birthday Rewards");
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
@@ -32,5 +34,6 @@ public class DeskripsiBeranda2 extends AppCompatActivity {
         textView2 = findViewById(R.id.textView2_beranda2);
         textView3 = findViewById(R.id.textView3_beranda2);
         textView4 = findViewById(R.id.textView4_beranda2);
+        button = findViewById(R.id.button_beranda2);
     }
 }
