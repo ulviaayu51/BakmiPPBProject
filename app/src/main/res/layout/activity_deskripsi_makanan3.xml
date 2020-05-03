@@ -18,31 +18,33 @@
             android:gravity="center"
             android:textSize="20dp"
             android:textColor="#423C3C"
-            android:fontFamily="sans-serif"/>
+            android:fontFamily="sans"/>
     </androidx.appcompat.widget.Toolbar>
     <ImageView
-        android:id="@+id/imageView_makanan3"
+        android:id="@+id/imageView_desmakanan3"
         android:layout_width="match_parent"
-        android:layout_height="380dp"
+        android:layout_height="270dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/makanan3" />
+        app:srcCompat="@drawable/desnasi1" />
 
     <TextView
-        android:id="@+id/textView1_makanan3"
+        android:id="@+id/textView1_desmakanan3"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="30dp"
         android:layout_marginTop="20dp"
         android:paddingLeft="30dp"
-        android:text="AYAM PENYET"
+        android:text="K-POP CHICKEN MEAL"
+        android:fontFamily="sans"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/colorAccent"/>
 
     <TextView
-        android:id="@+id/textView2_makanan3"
+        android:id="@+id/textView2_desmakanan3"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:paddingLeft="30dp"
-        android:text="Ayam penyet dengan sambal merah"
-        android:textSize="15dp"/>
+        android:text="Korean Popcorn Chicken yang renyah dengan cita rasa pedas manis dikombinasikan dengan lezatnya Spring Veggie Stir fry dan nasi putih"
+        android:textSize="15dp"
+        android:fontFamily="sans"/>
 </LinearLayout>
