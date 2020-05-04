@@ -25,8 +25,8 @@ public class DeskripsiMakanan4 extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        imageView = findViewById(R.id.imageView_makanan4);
-        textView1 = findViewById(R.id.textView1_makanan4);
-        textView2 = findViewById(R.id.textView2_makanan4);
+        imageView = findViewById(R.id.imageView_desmakanan4);
+        textView1 = findViewById(R.id.textView1_desmakanan4);
+        textView2 = findViewById(R.id.textView2_desmakanan4);
     }
 }

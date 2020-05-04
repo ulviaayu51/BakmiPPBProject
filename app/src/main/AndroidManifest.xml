@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DeskripsiMinuman17"></activity>
+        <activity android:name=".Hubungi_Kami"></activity>
+        <activity android:name=".Kebijakan_Privasi" />
+        <activity android:name=".Syarat" />
+        <activity android:name=".Pertanyaan" />
+        <activity android:name=".Notifikasi" />
+        <activity android:name=".Permainan" />
+        <activity android:name=".Berhasil" />
+        <activity android:name=".Daftar" />
+        <activity android:name=".Masuk" />
+        <activity android:name=".Syarat_dan_Ketentuan" />
+        <activity android:name=".DeskripsiMinuman17" />
         <activity android:name=".DeskripsiMinuman16" />
         <activity android:name=".DeskripsiMinuman15" />
         <activity android:name=".DeskripsiMinuman14" />
@@ -55,28 +65,6 @@
         <activity android:name=".DeskripsiMakanan12" />
         <activity android:name=".DeskripsiMakanan11" />
         <activity android:name=".Main_GabungActivity" />
-        <activity android:name=".Syarat_dan_Ketentuan" />
-        <activity
-            android:name=".Syarat"
-            android:parentActivityName=".Main5Activity" />
-        <activity
-            android:name=".Pertanyaan"
-            android:parentActivityName=".Main5Activity" />
-        <activity
-            android:name=".Permainan"
-            android:parentActivityName=".Main5Activity" />
-        <activity
-            android:name=".Notifikasi"
-            android:parentActivityName=".Main5Activity" />
-        <activity android:name=".Masuk" />
-        <activity
-            android:name=".Kebijakan_Privasi"
-            android:parentActivityName=".Main5Activity" />
-        <activity
-            android:name=".Hubungi_Kami"
-            android:parentActivityName=".Main5Activity" />
-        <activity android:name=".Daftar" />
-        <activity android:name=".Berhasil" />
         <activity
             android:name=".DeskripsiBeranda11"
             android:parentActivityName=".MainActivity" />
@@ -171,9 +159,8 @@
         <activity android:name=".Main4Activity" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".Main2Activity" />
-        <activity android:name=".MainActivity"/>
-        <activity
-            android:name=".SplashActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

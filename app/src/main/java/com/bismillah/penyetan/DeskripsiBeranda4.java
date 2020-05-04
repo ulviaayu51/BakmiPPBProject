@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class DeskripsiMakanan4 extends AppCompatActivity {
+public class DeskripsiBeranda4 extends AppCompatActivity {
     ImageView imageView;
     TextView textView1;
     TextView textView2;

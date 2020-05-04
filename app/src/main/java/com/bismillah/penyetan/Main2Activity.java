@@ -19,8 +19,6 @@ public class Main2Activity extends AppCompatActivity {
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    private TabItem katalog, hadiah;
-    public PageAdapter pageradapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,35 +26,8 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         tabLayout = (TabLayout) findViewById(R.id.tablayout);
-        katalog = (TabItem) findViewById(R.id.Katalog);
-        hadiah = (TabItem) findViewById(R.id.Hadiah);
         viewPager = findViewById(R.id.viewpager);
 
-        pageradapter = new PageAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
-        viewPager.setAdapter(pageradapter);
-
-        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                if (tab.getPosition() ==0 ){
-                    pageradapter.notifyDataSetChanged();
-                }
-                else if (tab.getPosition() ==1 ){
-                    pageradapter.notifyDataSetChanged();
-                }
-
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-
-            }
-        });
 
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 

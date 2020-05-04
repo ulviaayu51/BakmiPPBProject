@@ -126,44 +126,49 @@ Contoh : Poin yang diperoleh dari transaksi tanggal 1 April 2018 akan hangus pad
         <item>Tidak penukaran E-Voucher Bakmi GMania wajib dilakukan oleh member terkait dan tidak dapat diwakilkan.</item>
     </string-array>
     <string-array name="pertanyaan11">
-        <item></item>
-        <item></item>
+        <item>11. pakah ada minimum transaksi untuk penukaran E-Voucher Rewards yang diperoleh dari bermain Spin The Wheel?
+Ya, setiap E-voucher dapat ditukarkan dengan minimum transaksi Rp 75.000,- (sebelum pajak)</item>
+        <item>Ya, setiap E-voucher dapat ditukarkan dengan minimum transaksi Rp 75.000,- (sebelum pajak).</item>
     </string-array>
     <string-array name="pertanyaan12">
-        <item></item>
-        <item></item>
+        <item>12. Apakah saya akan mendapatkan Poin Member Bakmi GMania untuk pembelian Voucher Bakmi GM?</item>
+        <item>Tidak, pembelian Voucher tidak akan menghasilkan Poin Member</item>
     </string-array>
     <string-array name="pertanyaan13">
-        <item></item>
-        <item></item>
+        <item>13. Apakah saya akan mendapatkan Poin Member untuk pembayaran menggunakan Voucher Bakmi GM?</item>
+        <item>a, Anda akan mendapatkan poin saat anda menggunakan Voucher Bakmi GM. Anda dapat menggabungkan voucher Bakmi GM dengan jenis pembayaran lainnya dan akan tetap mendapatkan Poin Member Bakmi GMania. KECUALI jika pembayaran menggunakan E-Voucher Member (Lihat pada poin 14).</item>
     </string-array>
     <string-array name="pertanyaan14">
-        <item></item>
-        <item></item>
+        <item>14. Apakah saya akan mendapatkan Poin Member untuk pembayaran menggunakan E-Voucher member?</item>
+        <item>Tidak, pembayaran menggunakan E-Voucher Member tidak akan menghasilkan Poin Member.</item>
     </string-array>
     <string-array name="pertanyaan15">
-        <item></item>
-        <item></item>
+        <item>15. Apakah penggunaan Member Bakmi GMania dapat diwakilkan?</item>
+        <item>Kami ingin hanya member kami yang dapat menikmati keuntungan dari pengumpulan Poin Member GMania. Anda bertanggung jawab penuh atas informasi keanggotan dan keamanan Member Bakmi GMania. Penggunaan Poin Member Bakmi GMania hanya dapat dilakukan oleh member yang bersangkutan.</item>
     </string-array>
     <string-array name="pertanyaan16">
-        <item></item>
-        <item></item>
+        <item>16. Penambahan Poin Member Bakmi GMania dapat diwakilkan?</item>
+        <item>Di semua store Bakmi GM kecuali Food Truck, Event Bazaar, dan Booth.</item>
     </string-array>
     <string-array name="pertanyaan17">
-        <item></item>
-        <item></item>
+        <item>17. Apakah Poin Member Bakmi GMania dapat diuangkan atau ditransfer ke akun Member Bakmi GMania lainnya?</item>
+        <item>Tidak Bisa. Poin Member Bakmi GMania tidak dapat diuangkan atau ditransfer ke akun Member Bakmi GMania lainnya.</item>
     </string-array>
     <string-array name="pertanyaan18">
-        <item></item>
-        <item></item>
+        <item>18. Program Member Bakmi GMania berlaku untuk semua transaksi di store Bakmi GM?</item>
+        <item>Program Member Bakmi GMania berlaku untuk transaksi di Bakmi GM, kecuali :
+        1.	Field trip
+        2.	Pembelian via Gojek (Go Food)
+        3.	Pembelian via Grab (Grab Food)</item>
     </string-array>
     <string-array name="pertanyaan19">
-        <item></item>
-        <item></item>
+        <item>19. Penukaran E-Voucher Member dapat dilakukan di mana saja?</item>
+        <item>Di store Bakmi GM kecuali Bandara, Food Truck, Stasiun, Event Bazaar, Booth dan Store MRT.</item>
     </string-array>
     <string-array name="pertanyaan20">
-        <item></item>
-        <item></item>
+        <item>20. Apa yang harus saya lakukan Ketika memiliki pertanyaan atau menghadapi masalah berkaitan dengan Member Bakmi GMania?</item>
+        <item>Anda dapat menghubungi contact center Bakmi GMania melalui email ke : help@bgmania. Bakmigm.com
+            Contact center kami beroperasi dari Senin-Jumat jam 08.30 – 17.30</item>
     </string-array>
     <string name="masukbold">MASUK</string>
     <string-array name="pilihbhsa">
@@ -184,5 +189,6 @@ Contoh : Poin yang diperoleh dari transaksi tanggal 1 April 2018 akan hangus pad
     <string name="dmy">DD-MM-YYYY</string>
     <string name="wilayahhh">Masukkan Wilayah Pendaftaran</string>
     <string name="kadotulis">Lengkapi profil dan dapatkan kesempatan bermain putar roda sekali lagi untuk memenangkan hadiah menarik</string>
-
+    <string name="Katalog">Katalog</string>
+    <string name="Hadiah">Hadiah Saya</string>
 </resources>
