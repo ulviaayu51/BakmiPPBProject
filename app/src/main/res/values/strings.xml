@@ -191,4 +191,19 @@ Ya, setiap E-voucher dapat ditukarkan dengan minimum transaksi Rp 75.000,- (sebe
     <string name="kadotulis">Lengkapi profil dan dapatkan kesempatan bermain putar roda sekali lagi untuk memenangkan hadiah menarik</string>
     <string name="Katalog">Katalog</string>
     <string name="Hadiah">Hadiah Saya</string>
+    <string name="AP">ATUR PROFIL</string>
+    <string name="LEWAT">LEWATI</string>
+    <string name="PP">PENGATURAN PROFIL</string>
+    <string name="ME">Masukkan E-mail</string>
+    <string name="JK">Jenis Kelamin</string>
+    <string name="PR">PRIA</string>
+    <string name="WN">WANITA</string>
+    <string name="Kot">Kota</string>
+    <string name="Alam">Alamat</string>
+    <string name="MA">Masukkan Alamat</string>
+    <string name="KP">Kode Pos</string>
+    <string name="sel">Selesai</string>
+    <string name="nm">Nama</string>
+    <string name="tp">Tampilkan profil</string>
+    <string name="out">Keluar</string>
 </resources>

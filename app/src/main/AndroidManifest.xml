@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Hubungi_Kami"></activity>
+        <activity android:name=".Mainclone"></activity>
+        <activity android:name=".AturProfil" />
+        <activity android:name=".Hubungi_Kami" />
         <activity android:name=".Kebijakan_Privasi" />
         <activity android:name=".Syarat" />
         <activity android:name=".Pertanyaan" />

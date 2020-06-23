@@ -11,8 +11,8 @@
         android:id="@+id/kado"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/logomi"
-        android:layout_marginTop="200dp"/>
+        app:srcCompat="@drawable/kadonya"
+        android:layout_marginTop="150dp"/>
 
     <TextView
         android:id="@+id/tuliskado"
@@ -26,5 +26,23 @@
         android:layout_height="wrap_content"
         android:text="@string/kadotulis"/>
 
+    <Button
+        android:id="@+id/editp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/AP"
+        android:background="@color/orange"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"/>
 
+    <Button
+        android:id="@+id/lwt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/LEWAT"
+        android:background="@color/trans"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"/>
 </LinearLayout>
