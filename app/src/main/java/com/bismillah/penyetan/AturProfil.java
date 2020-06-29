@@ -14,7 +14,7 @@ public class AturProfil extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             switch (v.getId()){
-                case R.id.btndaftar:
+                case R.id.slesai:
                     Intent intent=new Intent(AturProfil.this,Mainclone.class);
                     startActivity(intent);
                     break;

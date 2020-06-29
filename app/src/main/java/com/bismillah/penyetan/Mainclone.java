@@ -20,8 +20,8 @@ public class Mainclone extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             switch (v.getId()){
-                case R.id.btndaftar:
-                    Intent intent=new Intent(Mainclone.this,Mainclone.class);
+                case R.id.button1:
+                    Intent intent=new Intent(Mainclone.this,Profil.class);
                     startActivity(intent);
                     break;
             }

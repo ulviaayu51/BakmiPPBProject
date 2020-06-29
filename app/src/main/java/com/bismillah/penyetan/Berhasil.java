@@ -14,7 +14,7 @@ public class Berhasil extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             switch (v.getId()){
-                case R.id.btndaftar:
+                case R.id.editp:
                     Intent intent=new Intent(Berhasil.this,AturProfil.class);
                     startActivity(intent);
                     break;
@@ -26,7 +26,7 @@ public class Berhasil extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             switch (v.getId()){
-                case R.id.btndaftar:
+                case R.id.lwt:
                     Intent intent=new Intent(Berhasil.this,Mainclone.class);
                     startActivity(intent);
                     break;

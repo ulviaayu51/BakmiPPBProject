@@ -97,4 +97,19 @@
     <string name="Hadiah">Hadiah Saya</string>
     <string name="AP">Atur profil</string>
     <string name="LEWAT">Lewati</string>
+    <string name="PP">Pengaturan Profil</string>
+    <string name="ME">Masukkan E-mail</string>
+    <string name="JK">Jenis Kelamin</string>
+    <string name="PR">Pria</string>
+    <string name="WN">Wanita</string>
+    <string name="Kot">Kota</string>
+    <string name="Alam">Alamat</string>
+    <string name="MA">Masukkan Alamat</string>
+    <string name="KP">Kode Pos</string>
+    <string name="sel">Selesai</string>
+    <string name="nm">Nama</string>
+    <string name="tp">Tampilkan profil</string>
+    <string name="out">Keluar</string>
+    <string name="IS">Informasi Saya</string>
+    <string name="PS">Poin Saya</string>
 </resources>

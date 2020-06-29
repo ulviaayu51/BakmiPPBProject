@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bismillah.penyetan">
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/logomi2"
@@ -9,7 +8,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Mainclone"></activity>
+        <activity android:name=".Profil"></activity>
+        <activity android:name=".Mainclone" />
         <activity android:name=".AturProfil" />
         <activity android:name=".Hubungi_Kami" />
         <activity android:name=".Kebijakan_Privasi" />

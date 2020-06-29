@@ -97,4 +97,19 @@
     <string name="Hadiah">My gift</string>
     <string name="AP">Management profile</string>
     <string name="LEWAT">" skip over"</string>
+    <string name="PP">Profile Settings</string>
+    <string name="ME">" Enter E-mail"</string>
+    <string name="JK">Gender</string>
+    <string name="PR">Man</string>
+    <string name="WN">Women</string>
+    <string name="Kot">City</string>
+    <string name="Alam">Address</string>
+    <string name="MA">Enter Address</string>
+    <string name="KP">Postal Code</string>
+    <string name="sel">Done</string>
+    <string name="nm">Name</string>
+    <string name="tp">" Show profile"</string>
+    <string name="out">Out</string>
+    <string name="IS">" My Information"</string>
+    <string name="PS">My Poin</string>
 </resources>

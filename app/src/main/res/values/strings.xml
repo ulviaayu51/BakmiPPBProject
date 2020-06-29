@@ -206,4 +206,6 @@ Ya, setiap E-voucher dapat ditukarkan dengan minimum transaksi Rp 75.000,- (sebe
     <string name="nm">Nama</string>
     <string name="tp">Tampilkan profil</string>
     <string name="out">Keluar</string>
+    <string name="IS">Informasi Saya</string>
+    <string name="PS">Poin Saya</string>
 </resources>
