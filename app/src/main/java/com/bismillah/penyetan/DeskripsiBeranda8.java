@@ -19,8 +19,6 @@ public class DeskripsiBeranda8 extends AppCompatActivity {
     TextView textView7;
     TextView textView8;
     TextView textView9;
-    TextView textView10;
-    TextView textView11;
     Button button;
 
     @Override
@@ -31,7 +29,7 @@ public class DeskripsiBeranda8 extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
         if(toolbarText!=null && toolbar!=null){
-            toolbarText.setText("DOUBLE POINTS");
+            toolbarText.setText("WEB DELIVERY");
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
@@ -46,8 +44,6 @@ public class DeskripsiBeranda8 extends AppCompatActivity {
         textView7 = findViewById(R.id.textView7_beranda8);
         textView8 = findViewById(R.id.textView8_beranda8);
         textView9 = findViewById(R.id.textView9_beranda8);
-        textView10 = findViewById(R.id.textView10_beranda8);
-        textView11 = findViewById(R.id.textView11_beranda8);
         button = findViewById(R.id.button_beranda8);
     }
 }
