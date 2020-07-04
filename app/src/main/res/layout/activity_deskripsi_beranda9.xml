@@ -40,7 +40,7 @@
                 android:layout_marginTop="20dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="FREE DELIVERY"
+                android:text="NIKMAT DAN HEMAT"
                 android:fontFamily="sans"
                 android:textSize="17dp"
                 android:layout_marginLeft="25dp"/>
@@ -49,8 +49,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:text="#WorkFromHome tapi bingung mau makan apa?"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Yuk pesan Bakmi 20 dari menu Nikmat Hemat Bakmi GM!"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -59,8 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="20dp"
-                android:text="Jangan khawatir karena dengan layanan Bakmi GM delivery. Kamu bisa menikmati menu Bakmi GM favoritmu di rumah. Bebas Biaya Antar!"
+                android:text="Pas harga porsinya buat makan siang!"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -69,8 +69,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
-                android:text="Hubungi Bakmi GM Delivery 1.500.677 atau WA 0811.1500.677"
+                android:layout_marginTop="20dp"
+                android:text="Pastikan kamu mencoba varian menu Nikmat Hemat Bakmi GM lainnya:"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -79,8 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
-                android:text="Disertai minimum transaksi Rp50.000 (sebelum pajak)"
+                android:text="- Nasi 20"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -89,22 +88,77 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
-                android:text="Periode Promo sampai dengan 30 April 2020."
-                android:textSize="15dp"
-                android:fontFamily="sans"/>
+                android:text="- Bakmi 25"
+                android:fontFamily="sans"
+                android:textSize="15dp"/>
             <TextView
                 android:id="@+id/textView7_beranda9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
-                android:text="SK berlaku"
+                android:text="- Bakmi 30"
                 android:fontFamily="sans"
                 android:textSize="15dp"/>
             <TextView
                 android:id="@+id/textView8_beranda9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:text="Pesan melalui 1.500.677 atau WhatsApp 0811.1500.677"
+                android:fontFamily="sans"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView9_beranda9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:text="Syarat dan Ketentuan"
+                android:fontFamily="sans"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView10_beranda9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="- Berlaku untuk pemesanan melalui Bakmi GM Delivery dan Take Out"
+                android:fontFamily="sans"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView11_beranda9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="- Harga bellum termasuk pajak"
+                android:fontFamily="sans"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView12_beranda9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="- Promo dapat berubah sewaktu-waktu"
+                android:fontFamily="sans"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView13_beranda9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:text="SK Berlaku"
+                android:fontFamily="sans"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView14_beranda9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
@@ -115,7 +169,7 @@
                 android:gravity="center"
                 android:textColor="@color/black"/>
             <TextView
-                android:id="@+id/textView9_beranda9"
+                android:id="@+id/textView15_beranda9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
