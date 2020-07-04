@@ -18,6 +18,7 @@ public class DeskripsiBeranda10 extends AppCompatActivity {
     TextView textView6;
     TextView textView7;
     TextView textView8;
+    TextView textView9;
     Button button;
 
     @Override
@@ -28,7 +29,7 @@ public class DeskripsiBeranda10 extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
         if(toolbarText!=null && toolbar!=null){
-            toolbarText.setText("PAKET RAME - RAME 5");
+            toolbarText.setText("FROZEN FOOD");
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
@@ -42,6 +43,7 @@ public class DeskripsiBeranda10 extends AppCompatActivity {
         textView6 = findViewById(R.id.textView6_beranda10);
         textView7 = findViewById(R.id.textView7_beranda10);
         textView8 = findViewById(R.id.textView8_beranda10);
+        textView9 = findViewById(R.id.textView9_beranda10);
         button = findViewById(R.id.button_beranda10);
     }
 }
