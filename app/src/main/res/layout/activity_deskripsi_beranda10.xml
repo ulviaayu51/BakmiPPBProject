@@ -40,7 +40,7 @@
                 android:layout_marginTop="20dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="PAKET RAME - RAME 5"
+                android:text="FROZEN FOOD"
                 android:fontFamily="sans"
                 android:textSize="17dp"
                 android:layout_marginLeft="25dp"/>
@@ -51,7 +51,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="20dp"
-                android:text="Paket Rame - Rame 5:"
+                android:text="Hain GMania! Sudah tau kalau sekarang Bakmi GM tersedia dalam kemasan Frozen Food kan?"
                 android:fontFamily="sans"
                 android:textSize="15dp"/>
             <TextView
@@ -60,7 +60,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:text="5 Bakmi SPC GM + Pangsit Goreng isi 5 hanya Rp. 126,234 (sblm pajak)"
+                android:layout_marginTop="20dp"
+                android:text="Cek selengkapnya disini yuk : https://bit.ly/2Cpg0Zl"
                 android:fontFamily="sans"
                 android:textSize="15dp"/>
             <TextView
@@ -70,7 +71,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="15dp"
-                android:text="Yuk, hubungi 1.500.677 atau WA 0811.1500.676 sekarang!"
+                android:text="Yuk pesan Frozen Food Bakmi GM dan nikmati makanan Bakmi GM kapanpun dirumah!"
                 android:fontFamily="sans"
                 android:textSize="15dp"/>
             <TextView
@@ -80,11 +81,20 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="15dp"
-                android:text="Hanya berlaku untuk pesanan delivery."
-                android:fontFamily="sans"
+                android:text="Pesan melalui 1.500.677 atau WhatsApp 0811.1500.677."
                 android:textSize="15dp"/>
             <TextView
                 android:id="@+id/textView6_beranda10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:text="Hanya tersedia di store tertentu."
+                android:fontFamily="sans"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView7_beranda10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
@@ -94,7 +104,7 @@
                 android:fontFamily="sans"
                 android:textSize="15dp"/>
             <TextView
-                android:id="@+id/textView7_beranda10"
+                android:id="@+id/textView8_beranda10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
@@ -105,7 +115,7 @@
                 android:gravity="center"
                 android:textColor="@color/black"/>
             <TextView
-                android:id="@+id/textView8_beranda10"
+                android:id="@+id/textView9_beranda10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
