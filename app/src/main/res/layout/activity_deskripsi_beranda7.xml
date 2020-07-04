@@ -40,7 +40,7 @@
                 android:layout_marginTop="20dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="WEEKLY MEMBER PRICE"
+                android:text="WEEKLY MEMBER"
                 android:fontFamily="sans"
                 android:textSize="17dp"
                 android:layout_marginLeft="25dp"/>
@@ -51,7 +51,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="20dp"
-                android:text="Dapatkan Nasi Goreng Teri (Reg) yang lezat Rp 33.637 (sblm pajak)"
+                android:text="Nikmati kelezatan Cap Cay hanya Rp 35.455,-(sblm pajak)."
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -61,7 +61,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="15dp"
-                android:text="Yuk pesan melalui 1.500.677 atau WhatsApp 0811.1500.677 dan infokan nomor member kamu untu mendapatkan promo ini."
+                android:text="Yuk ke Bakmi GM sekarang dan dapatkan harga spesial khusus member."
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -71,7 +71,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="15dp"
-                android:text="GRATIS BIAYA ANTAR untuk setiap transaksi produk apapun min Rp 50.000 (sebelum pajak)"
+                android:text="Hanya berlaku untuk Dine In, Take Out dan Delivery."
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -81,21 +81,11 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="15dp"
-                android:text="Hanya Berlaku untuk Dine in, Take Out dan Delivery"
-                android:textSize="15dp"
-                android:fontFamily="sans"/>
-            <TextView
-                android:id="@+id/textView6_beranda7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
                 android:text="SK Berlaku"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
-                android:id="@+id/textView7_beranda7"
+                android:id="@+id/textView6_beranda7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
@@ -106,7 +96,7 @@
                 android:fontFamily="sans"
                 android:textColor="@color/black"/>
             <TextView
-                android:id="@+id/textView8_beranda7"
+                android:id="@+id/textView7_beranda7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
