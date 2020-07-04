@@ -137,10 +137,10 @@ class Tab_adapter extends FragmentStatePagerAdapter{
         switch (position)
         {
             case 0:
-                tab_1 tab1=new tab_1();
+                tab1_awal tab1=new tab1_awal();
                 return tab1;
             case 1:
-                tab_2 tab2=new tab_2();
+                tab2_awal tab2=new tab2_awal();
                 return tab2;
 
         }
