@@ -12,8 +12,11 @@ import com.google.android.material.tabs.TabLayout;
 
 public class Profil extends AppCompatActivity {
 
-    private TabLayout tabLayout;
-    private ViewPager viewPager;
+    TabLayout tabLayout;
+    ViewPager viewPager;
+    Adapter mAdapter;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,8 +24,10 @@ public class Profil extends AppCompatActivity {
 
         tabLayout = findViewById(R.id.tablayout);
         viewPager = findViewById(R.id.viewpager);
+        mAdapter = new Adapter(getSupportFragmentManager());
 
-        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+        viewPager.setAdapter(mAdapter);
+        tabLayout.setupWithViewPager(viewPager);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
