@@ -17,7 +17,6 @@ public class DeskripsiBeranda7 extends AppCompatActivity {
     TextView textView5;
     TextView textView6;
     TextView textView7;
-    TextView textView8;
     Button button;
 
     @Override
@@ -28,7 +27,7 @@ public class DeskripsiBeranda7 extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
         if(toolbarText!=null && toolbar!=null){
-            toolbarText.setText("WEEKLY MEMBER PRICE");
+            toolbarText.setText("WEEKLY MEMBER");
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
@@ -41,7 +40,6 @@ public class DeskripsiBeranda7 extends AppCompatActivity {
         textView5 = findViewById(R.id.textView5_beranda7);
         textView6 = findViewById(R.id.textView6_beranda7);
         textView7 = findViewById(R.id.textView7_beranda7);
-        textView8 = findViewById(R.id.textView8_beranda7);
         button = findViewById(R.id.button_beranda7);
     }
 }
