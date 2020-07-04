@@ -63,12 +63,12 @@ public class Main_GabungActivity extends AppCompatActivity {
                         finish();
                         return true;
                     case R.id.menu:
-                        startActivity(new Intent(getApplicationContext(), Main4Activity.class));
+                        startActivity(new Intent(getApplicationContext(), Main4_GabungActivity.class));
                         overridePendingTransition(0, 0);
                         finish();
                         return true;
                     case R.id.lainnya:
-                        startActivity(new Intent(getApplicationContext(), Main5Activity.class));
+                        startActivity(new Intent(getApplicationContext(), Main5_GabungActivity.class));
                         overridePendingTransition(0, 0);
                         finish();
                         return true;
