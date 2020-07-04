@@ -41,7 +41,7 @@
                 android:textStyle="bold"
                 android:fontFamily="sans"
                 android:textColor="@color/black"
-                android:text="DOUBLE POINTS"
+                android:text="WEB DELIVERY"
                 android:textSize="17dp"
                 android:layout_marginLeft="25dp"/>
             <TextView
@@ -50,8 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="20dp"
-                android:text="Hai GMania!"
+                android:text="Hai GMania! Sekarang kamu bisa melakukan pemesanan dengan mudah melalui Bakmi GM Web Delivery."
                 android:fontFamily="sans"
                 android:textSize="15dp"/>
             <TextView
@@ -61,7 +60,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="15dp"
-                android:text="Promo Double Point untuk member Bakmi GM yang setia!"
+                android:text="Segera kunjungi portal Bakmi GM Web Delivery sesuai domisili GMania dan pesan menu favorit kalian!"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -70,8 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
-                android:text="Syarat dan ketentuan "
+                android:text="- Jakarta : portal.bakmigm.co.id/delivery"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -80,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:text="- Periode 3-30 April 2020"
+                android:text="- Bandung : portal.bakmigm.co.id/deliverybdg"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -89,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:text="- Minimal transaksi Rp 75.000 (sblm pajak)"
+                android:text="- Surabaya : portal.bakmigm.co.id/deliverysby"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -98,29 +96,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:text="- Khusus transaksi melalui Delivery Bakmi GM"
+                android:text="- Bali : portal.bakmigm.co.id/deliverybali"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
                 android:id="@+id/textView8_beranda8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:text="- Maksimal Double Point yang diperoleh adalah 100 poin dalam 1 transaksi"
-                android:textSize="15dp"
-                android:fontFamily="sans"/>
-            <TextView
-                android:id="@+id/textView9_beranda8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:text="- Berlaku khusus member Bakmi GM"
-                android:textSize="15dp"
-                android:fontFamily="sans"/>
-            <TextView
-                android:id="@+id/textView10_beranda8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
@@ -131,7 +111,7 @@
                 android:gravity="center"
                 android:textColor="@color/black"/>
             <TextView
-                android:id="@+id/textView11_beranda8"
+                android:id="@+id/textView9_beranda8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
