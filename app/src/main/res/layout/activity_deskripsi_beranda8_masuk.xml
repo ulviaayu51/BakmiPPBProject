@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeskripsiBeranda8"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#423C3C"
+            android:fontFamily="sans"/>
+    </androidx.appcompat.widget.Toolbar>
+
+            <ImageView
+                android:id="@+id/imageView_beranda8"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/beranda8"/>
+            <TextView
+                android:id="@+id/textView1_beranda8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:fontFamily="sans"
+                android:textColor="@color/black"
+                android:text="WEB DELIVERY"
+                android:textSize="17dp"
+                android:layout_marginLeft="25dp"/>
+            <TextView
+                android:id="@+id/textView2_beranda8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Hai GMania! Sekarang kamu bisa melakukan pemesanan dengan mudah melalui Bakmi GM Web Delivery."
+                android:fontFamily="sans"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView3_beranda8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:text="Segera kunjungi portal Bakmi GM Web Delivery sesuai domisili GMania dan pesan menu favorit kalian!"
+                android:textSize="15dp"
+                android:fontFamily="sans"/>
+            <TextView
+                android:id="@+id/textView4_beranda8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="- Jakarta : portal.bakmigm.co.id/delivery"
+                android:textSize="15dp"
+                android:fontFamily="sans"/>
+            <TextView
+                android:id="@+id/textView5_beranda8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="- Bandung : portal.bakmigm.co.id/deliverybdg"
+                android:textSize="15dp"
+                android:fontFamily="sans"/>
+            <TextView
+                android:id="@+id/textView6_beranda8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="- Surabaya : portal.bakmigm.co.id/deliverysby"
+                android:textSize="15dp"
+                android:fontFamily="sans"/>
+            <TextView
+                android:id="@+id/textView7_beranda8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="- Bali : portal.bakmigm.co.id/deliverybali"
+                android:textSize="15dp"
+                android:fontFamily="sans"/>
+</LinearLayout>

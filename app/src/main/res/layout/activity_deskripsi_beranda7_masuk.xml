@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeskripsiBeranda7_masuk"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#423C3C"
+            android:fontFamily="sans"/>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView_beranda7"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/beranda7"/>
+            <TextView
+                android:id="@+id/textView1_beranda7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="WEEKLY MEMBER"
+                android:fontFamily="sans"
+                android:textSize="17dp"
+                android:layout_marginLeft="25dp"/>
+            <TextView
+                android:id="@+id/textView2_beranda7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:text="Nikmati kelezatan Cap Cay hanya Rp 35.455,-(sblm pajak)."
+                android:textSize="15dp"
+                android:fontFamily="sans"/>
+            <TextView
+                android:id="@+id/textView3_beranda7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:text="Yuk ke Bakmi GM sekarang dan dapatkan harga spesial khusus member."
+                android:textSize="15dp"
+                android:fontFamily="sans"/>
+            <TextView
+                android:id="@+id/textView4_beranda7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:text="Hanya berlaku untuk Dine In, Take Out dan Delivery."
+                android:textSize="15dp"
+                android:fontFamily="sans"/>
+            <TextView
+                android:id="@+id/textView5_beranda7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:text="SK Berlaku"
+                android:textSize="15dp"
+                android:fontFamily="sans"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
