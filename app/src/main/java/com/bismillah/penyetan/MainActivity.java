@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         finish();
                         return true;
                     case R.id.toko:
-                        startActivity(new Intent(getApplicationContext(), Main3Activity.class));
+                        startActivity(new Intent(getApplicationContext(), MapsActivity.class));
                         overridePendingTransition(0, 0);
                         finish();
                         return true;
