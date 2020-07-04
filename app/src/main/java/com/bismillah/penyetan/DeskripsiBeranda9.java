@@ -19,6 +19,12 @@ public class DeskripsiBeranda9 extends AppCompatActivity {
     TextView textView7;
     TextView textView8;
     TextView textView9;
+    TextView textView10;
+    TextView textView11;
+    TextView textView12;
+    TextView textView13;
+    TextView textView14;
+    TextView textView15;
     Button button;
 
     @Override
@@ -29,7 +35,7 @@ public class DeskripsiBeranda9 extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
         if(toolbarText!=null && toolbar!=null){
-            toolbarText.setText("FREE DELIVERY");
+            toolbarText.setText("NIKMAT DAN HEMAT");
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
@@ -44,6 +50,12 @@ public class DeskripsiBeranda9 extends AppCompatActivity {
         textView7 = findViewById(R.id.textView7_beranda9);
         textView8 = findViewById(R.id.textView8_beranda9);
         textView9 = findViewById(R.id.textView9_beranda9);
+        textView10 = findViewById(R.id.textView10_beranda9);
+        textView11 = findViewById(R.id.textView11_beranda9);
+        textView12 = findViewById(R.id.textView12_beranda9);
+        textView13 = findViewById(R.id.textView13_beranda9);
+        textView14 = findViewById(R.id.textView14_beranda9);
+        textView15 = findViewById(R.id.textView15_beranda9);
         button = findViewById(R.id.button_beranda9);
     }
 }
