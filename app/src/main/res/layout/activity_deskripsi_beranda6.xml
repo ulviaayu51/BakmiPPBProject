@@ -27,12 +27,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <ImageView
                 android:id="@+id/imageView_beranda6"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/beranda6"/>
+                android:src="@drawable/beranda6" />
+
             <TextView
                 android:id="@+id/textView1_beranda6"
                 android:layout_width="match_parent"
@@ -41,7 +43,7 @@
                 android:textStyle="bold"
                 android:fontFamily="sans"
                 android:textColor="@color/black"
-                android:text="PAKET BERKAT"
+                android:text="DISKON Rp 50.000"
                 android:textSize="17dp"
                 android:layout_marginLeft="25dp"/>
             <TextView
@@ -50,8 +52,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="20dp"
-                android:text="Nikmati Paket Berkat (Berbuka Hemat) spesial dari Bakmi GM untuk GMania."
+                android:layout_marginTop="30dp"
+                android:text="Yuk pesan Bakmi GM dan dapatkan diskon Rp 50.000 khusus untuk Member Gmania!"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -60,8 +62,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
-                android:text="BERKAT 1 (Bakmi Spc + Teh Pucuk) hanya Rp 30.910 (sblm pajak)"
+                android:layout_marginTop="20dp"
+                android:text="Syarat dan Ketentuan"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -70,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:text="BERKAT 2 (Nasi Ayam GM + Teh Pucuk) hanya RP 29.091 (sblm pajak)"
+                android:text="- Diskon Rp 50.000 berlaku dengan minuman pembelian Rp 200.00 (sebelum pajak)"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -79,8 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
-                android:text="Segera pesan melalui 1.500.677 atay WhatsApp 0811.1500.677."
+                android:text="- Berlaku Dine In, Take Out dan Delivery"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -89,8 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
-                android:text="GRATIS BIAYA ANTAR untuk setiap transaksi produk apapun min Rp 50.00 (sebelum pajak)."
+                android:text="- Tidak berlaku kelipatan dan tidak berlaku split bill"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -99,8 +99,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
-                android:text="Hanya berlaku untuk pesanan Delivery dan Take Out."
+                android:text="- Tidak dapat digabungkan dengan promo atau paket Bakmi GM lainnya"
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
@@ -109,12 +108,21 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="15dp"
-                android:text="SK Berlaku"
+                android:text="- Berlaku diseluruh store Bakmi GM kecuali Bandara, MRT,foodtruck dan booth."
                 android:textSize="15dp"
                 android:fontFamily="sans"/>
             <TextView
                 android:id="@+id/textView9_beranda6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:text="SK Berlaku"
+                android:textSize="15dp"
+                android:fontFamily="sans"/>
+            <TextView
+                android:id="@+id/textView10_beranda6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
@@ -125,7 +133,7 @@
                 android:gravity="center"
                 android:textColor="@color/black"/>
             <TextView
-                android:id="@+id/textView10_beranda6"
+                android:id="@+id/textView11_beranda6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
