@@ -20,6 +20,7 @@ public class DeskripsiBeranda6 extends AppCompatActivity {
     TextView textView8;
     TextView textView9;
     TextView textView10;
+    TextView textView11;
     Button button;
 
     @Override
@@ -30,7 +31,7 @@ public class DeskripsiBeranda6 extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView toolbarText = findViewById(R.id.textView_toolbar);
         if(toolbarText!=null && toolbar!=null){
-            toolbarText.setText("PAKET BERKAT");
+            toolbarText.setText("DISKON Rp 50.000");
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
@@ -46,6 +47,7 @@ public class DeskripsiBeranda6 extends AppCompatActivity {
         textView8 = findViewById(R.id.textView8_beranda6);
         textView9 = findViewById(R.id.textView9_beranda6);
         textView10 = findViewById(R.id.textView10_beranda6);
+        textView11 = findViewById(R.id.textView11_beranda6);
         button = findViewById(R.id.button_beranda6);
     }
 }
